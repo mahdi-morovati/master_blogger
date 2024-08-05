@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MB.Application.Contracts\MB.Application.Contracts.csproj" />
+      <ProjectReference Include="..\MB.Infrstracture.Core\MB.Infrstracture.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Areas\Administrator\Pages\ArticleCategoryManagement\List.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Administrator\Pages\Error.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Administrator\Pages\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Administrator\Pages\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Administrator\Pages\Shared\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Administrator\Pages\Shared\_ValidationScriptsPartial.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Administrator\Pages\_ViewImports.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Administrator\Pages\_ViewStart.cshtml" />
+    </ItemGroup>
+
+</Project>
